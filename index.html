@@ -1,0 +1,104 @@
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>flexbox esempio - Anagrafica Disney</title>
+      <style>
+.container{
+padding: 0;
+margin: 0;
+list-style: none;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-flow: row wrap;
+justify-content: flex-start;
+}
+
+.item{
+background: tomato;
+padding: 5px;
+width: 300px;
+height: auto;
+margin: 8px;
+line-height: 30px;
+color: white;
+font-weight: bold;
+font-size: 1.2em;
+text-align: center;
+border:1px solid black;
+}
+
+.item:first-child{
+background: green;
+width: 300px;
+}
+
+.item:last-child{
+background: orange;
+width: 300px;
+}
+h6{
+background: white;
+color:black;
+font-size: 2em;
+margin:8px; 
+}
+
+img{
+margin-bottom: 20px;
+}      
+      </style>
+   </head>
+   
+   <body>
+     <ul class="container">
+         <li class="item">Anagrafica Disney<br>
+            nome - foto
+            <br>
+            <h2>Diritto di utilizzo</h2>
+Alcune immagini sono protette da copyright. Si ritiene che esse possano essere qui riprodotte, in osservanza alla legge sulla Protezione del diritto d'autore, articolo 70 comma 1 della legge n. 633 del 22 aprile 1941 e successive modificazioni, poich&egrave; trattasi di citazione per mere finalit&agrave; illustrative ed a fini non commerciali.
+
+
+         </li>
+
+         <li class="item"><h6>Paolino Paperino</h6>
+            Donald Duck<br>
+            <img src="paperino.jpg" width="180px">
+            <br>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/The_Spirit_of_%2743">da The Spirit of '43
+            </a>
+         </li>
+
+         <li class="item"><h6>Minnie</h6>
+            Minnie Mouse
+            <img src="minnie.jpg" width="180px">
+            <br>Foto rilasciata nel pubblico dominio dall'autore Jon Sullivan.
+         </li>
+
+
+         <li class="item"><h6>topolino</h6>
+            Mickey Mouse
+            <img src="topolino.jpg" width="180px">
+            <br>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Fantasia_(1940_film)">Fantasia (1940)
+            </a> riedito in blueray
+         </li>
+
+
+         <li class="item">Autori<br>
+            bruno.trombi AT gmail DOT com<br>
+            fulvio.mariola AT gmail DOT com<br>
+            mantonini70 AT gmail DOT com<br>
+            zagranowsi AT gmail DOT com<br>
+            mar_sansone1 AT gmail DOT com<br>
+            luca.bonifanti AT gmail DOT com<br>
+            paolomind AT gmail DOT com<br>
+            eleonora.martinali AT gmail DOT com<br>
+            cozzolino.giorgio AT gmail DOT com<br>
+         </li>
+
+      </ul>
+   </body>
+</html>
